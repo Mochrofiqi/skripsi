@@ -16,17 +16,17 @@ function NavBar() {
             </Link>
             <Link to="/about">
               <li className="text-primary-200 px-6 py-1 transition-all duration-300 list hover:bg-primary-200 hover:text-white hover:rounded-lg hover:font-semibold " id="about">
-                About
+                Tentang
               </li>
             </Link>
-            <Link to="/">
+            <Link to="/fitur">
               <li className="text-primary-200 px-6 py-1 transition-all duration-300 list hover:bg-primary-200 hover:text-white hover:rounded-lg hover:font-semibold" id="product">
-                Product
+                Fitur 
               </li>
             </Link>
             <Link to="/news">
               <li className="text-primary-200 px-6 py-1 transition-all duration-300 list hover:bg-primary-200 hover:text-white hover:rounded-lg hover:font-semibold" id="news">
-                News
+                Cerita
               </li>
             </Link>
             <Link to="/contact-us">

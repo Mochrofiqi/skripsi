@@ -1,75 +1,76 @@
 import { useState } from "react";
-import VideoPopup from "./KumpulanVideo";
-import KumpulanCerita from "./KumpulanCerita";
-import KumpulanGaleri from "./KumpulanGaleri";
+import { blogPosts, galleries, videos } from "../../Data";
+import ArtikelCard from "../blog/ArtikelCard";
+import GaleriCard from "../galeri/GaleriCard";
+import KumpulanVideo from "./KumpulanVideo";
+import Sorotan from "./Sorotan";
+import SorotanGaleri from "./SorotanGaleri";
+import SorotanVideo from "./SorotanVideo";
 
 const Features = () => {
     const [tab, setTab] = useState("blog");
     const [search, setSearch] = useState("");
     const [isFocus, setIsFocus] = useState(false);
-    const [blogPosts, setBlogPosts] = useState(
-        Array.from({ length: 2 }, (_, index) => index + 1)
-    );
-    const [videoPopup, setVideoPopup] = useState(
-        Array.from({ length: 2 }, (_, index) => index + 1)
-    );
-    const [galleryPhotos, setGalleryPhotos] = useState(
-        Array.from({ length: 2 }, (_, index) => index + 1)
-    );
-    const handleClick = () => {
-        // Add 3 more blog posts when the button is clicked
+    const [blogPage, setBlogPage] = useState(1);
+    const [galleryPage, setGalleryPage] = useState(1);
+    const [videoPage, setVideoPage] = useState(1);
+
+    const [blogPostsToShow, setBlogPostsToShow] = useState(blogPosts.slice(0, 6));
+    const [galleriesToShow, setGalleriesToShow] = useState(galleries.slice(0, 6));
+    const [videosToShow, setVideosToShow] = useState(videos.slice(0, 6));
+
+    const handleClick = (tab) => {
         if (tab === "blog") {
-            setBlogPosts((prevPosts) => [
-                ...prevPosts,
-                ...Array.from(
-                    { length: 2 },
-                    (_, index) => prevPosts.length + index + 1
-                ),
+            setBlogPage(blogPage + 1);
+            setBlogPostsToShow([
+                ...blogPostsToShow,
+                ...blogPosts.slice(blogPage * 6, (blogPage + 1) * 6),
+            ]);
+        } else if (tab === "gallery") {
+            setGalleryPage(galleryPage + 1);
+            setGalleriesToShow([
+                ...galleriesToShow,
+                ...galleries.slice(galleryPage * 6, (galleryPage + 1) * 6),
+            ]);
+        } else if (tab === "video") {
+            setVideoPage(videoPage + 1);
+            setVideosToShow([
+                ...videosToShow,
+                ...videos.slice(videoPage * 6, (videoPage + 1) * 6),
             ]);
         }
-        // } else if (tab === "video") {
-        //     setVideoPopup((prevVideo) => [
-        //         ...prevVideo,
-        //         ...Array.from(
-        //             { length: 2 },
-        //             (_, index) => prevVideo.length + index + 1
-        //         ),
-        //     ]);
-        // } else if (tab === "gallery") {
-        //     setGalleryPhotos((prevGallery) => [
-        //         ...prevGallery,
-        //         ...Array.from(
-        //             { length: 2 },
-        //             (_, index) => prevGallery.length + index + 1
-        //         ),
-        //     ]);
-        // }
     };
 
     return (
-        <div className="features w-full">
+        <div className="features w-full mt-10">
             <div className="feature-options">
                 <h1 className="text-2xl font-semibold text-primary-100 mx-20 mt-10 mb-3">
-                    Lihat lebih banyak dengan PT. X
+                    Lihat lebih banyak dengan FitAja!
                 </h1>
-                <div className="flex text-lg gap-4 overflow-hidden tab-content mx-20">
+                <div className="flex text-xl gap-3 overflow-hidden tab-content mx-20">
                     <button
                         className={`focus:outline-none ${tab === "blog"
                             ? "bg-primary-200 text-white"
                             : "bg-primary-400 text-white"
-                            } font-semibold py-2 px-4 w-32 text-center rounded-xl`}
+                            } font-semibold py-2 px-4 w-40 text-center rounded-xl`}
                         onClick={() => setTab("blog")}
                     >
-                        Blog
+                        Berita
                     </button>
                     <button
-                        className={`focus:outline-none bg-primary-400 focus:bg-primary-200 font-semibold py-2 px-4 w-32 text-center rounded-xl text-white`}
+                        className={`focus:outline-none ${tab === "gallery"
+                            ? "bg-primary-200 text-white"
+                            : "bg-primary-400 text-white"
+                            } font-semibold py-2 px-4 w-40 text-center rounded-xl text-white`}
                         onClick={() => setTab("gallery")}
                     >
-                        Gallery
+                        Galeri
                     </button>
                     <button
-                        className={`focus:outline-none bg-primary-400 focus:bg-primary-200 font-semibold py-2 px-4 w-32 text-center rounded-xl text-white`}
+                        className={`focus:outline-none ${tab === "video"
+                            ? "bg-primary-200 text-white"
+                            : "bg-primary-400 text-white"
+                            } font-semibold py-2 px-4 w-40 text-center rounded-xl text-white`}
                         onClick={() => setTab("video")}
                     >
                         Video
@@ -77,7 +78,7 @@ const Features = () => {
                 </div>
                 <div
                     id="articles-options"
-                    className='justify-between flex h-10 md:h-[44px] gap-2 md:gap-4 options px-20 mt-4'
+                    className="justify-between flex h-10 md:h-[44px] gap-2 md:gap-4 options px-20 mt-4"
                 >
                     <div className="w-2/3 md:w-3/4">
                         <div className="flex w-full overflow-hidden rounded-xl">
@@ -90,10 +91,11 @@ const Features = () => {
                                 id="searchArticles"
                                 type="text"
                                 placeholder="Cari..."
-                                className="w-full border-2 px-4 py-2 rounded-r-none outline-none rounded-l-xl border-neutral-400 focus:border-primary-200"
+                                className="w-full border-2 px-4 py-2 rounded-r-none outline-none rounded-l-xl border-primary-400 focus:border-primary-200"
                             />
                             <button
-                                className={`${isFocus ? 'bg-primary-200' : 'bg-primary-400'} px-6 py-2 font-semibold text-white text-nd lg:text-xl rounded-r-xl`}
+                                className={`${isFocus ? "bg-primary-200" : "bg-primary-400"
+                                    } px-6 py-2 font-semibold text-white text-xl rounded-r-xl`}
                             >
                                 Cari
                             </button>
@@ -114,13 +116,30 @@ const Features = () => {
                         <h1
                             data-aos="fade-up"
                             data-aos-delay="250"
-                            className="mt-8 mb-10 text-2xl font-semibold text-center md:text-3xl lg:text-4xl"
+                            className="mt-8 mb-8 text-2xl font-semibold text-center md:text-3xl lg:text-4xl"
                         >
-                            Kumpulan Cerita!
+                            Kumpulan Berita
                         </h1>
-                        {blogPosts.map((postId) => (
-                            <KumpulanCerita keyword={search} key={postId} postId={postId} />
-                        ))}
+                        <Sorotan />
+                        <div className="grid mt-6 mx-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                            {search ? (
+                                <>
+                                    {blogPostsToShow
+                                        .filter((post) =>
+                                            post.title.toLowerCase().includes(search.toLowerCase())
+                                        )
+                                        .map((post) => (
+                                            <ArtikelCard key={post.id} post={post} />
+                                        ))}
+                                </>
+                            ) : (
+                                <>
+                                    {blogPostsToShow.map((post) => (
+                                        <ArtikelCard key={post.id} post={post} />
+                                    ))}
+                                </>
+                            )}
+                        </div>
                     </>
                 )}
 
@@ -129,13 +148,30 @@ const Features = () => {
                         <h1
                             data-aos="fade-up"
                             data-aos-delay="250"
-                            className="mt-8 mb-10 text-2xl font-semibold text-center md:text-3xl lg:text-4xl"
+                            className="mt-8 mb-8 text-2xl font-semibold text-center md:text-3xl lg:text-4xl"
                         >
-                            Kumpulan Galeri!
+                            Kumpulan Galeri
                         </h1>
-                        {galleryPhotos.map((galleryId) => (
-                            <KumpulanGaleri key={galleryId} galleryId={galleryId} />
-                        ))}
+                        <SorotanGaleri />
+                        <div className="grid w-11/12 pt-6 pb-6 px-8 gap-2 mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                            {search ? (
+                                <>
+                                    {galleriesToShow
+                                        .filter((gallery) =>
+                                            gallery.title.toLowerCase().includes(search.toLowerCase())
+                                        )
+                                        .map((gallery) => (
+                                            <GaleriCard key={gallery.id} gallery={gallery} />
+                                        ))}
+                                </>
+                            ) : (
+                                <>
+                                    {galleriesToShow.map((gallery) => (
+                                        <GaleriCard key={gallery.id} gallery={gallery} />
+                                    ))}
+                                </>
+                            )}
+                        </div>
                     </>
                 )}
                 {tab === "video" && (
@@ -143,19 +179,79 @@ const Features = () => {
                         <h1
                             data-aos="fade-up"
                             data-aos-delay="250"
-                            className="mt-8 mb-12 text-2xl font-semibold text-center md:text-3xl lg:text-4xl"
+                            className="mt-8 mb-8 text-2xl font-semibold text-center md:text-3xl lg:text-4xl"
                         >
-                            Kumpulan Video!
+                            Kumpulan Video
                         </h1>
-                        {videoPopup.map((videoId) => (
-                            <VideoPopup key={videoId} videoId={videoId} />
-                        ))}
+                        <SorotanVideo />
+                        <div className="grid w-11/12 mt-8 mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                            {search ? (
+                                <>
+                                    {videos
+                                        .filter((video) =>
+                                            video.title.toLowerCase().includes(search.toLowerCase())
+                                        )
+                                        .slice(0, 6)
+                                        .map((video) => (
+                                            <KumpulanVideo key={video.youtubeId} video={video} />
+                                        ))}
+                                </>
+                            ) : (
+                                <>
+                                    {videos.slice(0, 6).map((video) => (
+                                        <KumpulanVideo key={video.youtubeId} video={video} />
+                                    ))}
+                                </>
+                            )}
+                        </div>
                     </>
                 )}
                 <div className="flex justify-center my-4">
-                    <button onClick={handleClick} className="px-8 py-1 mx-auto my-5 text-base font-semibold transition-all duration-300 border rounded-full sm:px-10 show-modal text-primary-200 border-primary-200 hover:bg-primary-200 hover:text-white hover:cursor-pointer">
-                        Selengkapnya
-                    </button>
+                    {(() => {
+                        if (tab === "blog") {
+                            return (
+                                blogPosts.filter((post) =>
+                                    post.title.toLowerCase().includes(search.toLowerCase())
+                                ).length >
+                                blogPage * 6 && (
+                                    <button
+                                        onClick={() => handleClick("blog")}
+                                        className="px-8 py-2 mx-auto mt-4 mb-8 text-base font-semibold transition-all duration-300 border rounded-full sm:px-10 show-modal text-primary-200 border-primary-200 hover:bg-primary-200 hover:text-white hover:cursor-pointer"
+                                    >
+                                        Lihat Lebih Banyak
+                                    </button>
+                                )
+                            );
+                        } else if (tab === "gallery") {
+                            return (
+                                galleries.filter((gallery) =>
+                                    gallery.title.toLowerCase().includes(search.toLowerCase())
+                                ).length >
+                                galleryPage * 6 && (
+                                    <button
+                                        onClick={() => handleClick("gallery")}
+                                        className="px-8 py-2 mx-auto mt-4 mb-8 text-base font-semibold transition-all duration-300 border rounded-full sm:px-10 show-modal text-primary-200 border-primary-200 hover:bg-primary-200 hover:text-white hover:cursor-pointer"
+                                    >
+                                        Lihat Lebih Banyak
+                                    </button>
+                                )
+                            );
+                        } else if (tab === "video") {
+                            return (
+                                videos.filter((video) =>
+                                    video.title.toLowerCase().includes(search.toLowerCase())
+                                ).length >
+                                videoPage * 6 && (
+                                    <button
+                                        onClick={() => handleClick("video")}
+                                        className="px-8 py-2 mx-auto mt-4 mb-8 text-base font-semibold transition-all duration-300 border rounded-full sm:px-10 show-modal text-primary-200 border-primary-200 hover:bg-primary-200 hover:text-white hover:cursor-pointer"
+                                    >
+                                        Lihat Lebih Banyak
+                                    </button>
+                                )
+                            );
+                        }
+                    })()}
                 </div>
             </div>
         </div>

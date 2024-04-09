@@ -3,6 +3,7 @@ import Footer from '../Footer';
 import NavBar from '../NavBar';
 import ArtikelLainnya from '../blog/ArtikelLainnya';
 import { Link } from 'react-router-dom';
+import Komentar from './Komentar';
 
 const Hadiri = () => {
     return (
@@ -54,7 +55,7 @@ const Hadiri = () => {
                 </div>
             </section>
         </div>
-        
+        <Komentar/>
         <ArtikelLainnya/>
         <Footer/>
         </>

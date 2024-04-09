@@ -47,7 +47,7 @@ const Form = () => {
     };
 
     return (
-        <div className="mt-8 overflow-hidden md:py-16 lg:pt-16 px-14 md:px-28 lg:px-28">
+        <div className="mt-4 overflow-hidden md:py-16 lg:pt-16 px-14 md:px-28 lg:px-28">
             <div
                 id="form-question"
                 className="flex flex-col-reverse items-center gap-8 md:items-end md:justify-between md:flex-row align-self-stretch"
@@ -127,9 +127,12 @@ const Form = () => {
                                 <div
                                     id="myModal"
                                     className={`absolute z-[7] ${showInfo ? "" : "hidden"
-                                        } transform translate-x-1/2 translate-y-1/2 right-1/2 bottom-1/2 md:-right-20 lg:-right-20 md:-bottom-0 lg:-bottom-0`}
+                                        } transform translate-x-1/2 translate-y-1/2 right-1/2 bottom-1/2 md:-right-12 lg:-right-12 md:-bottom-0 lg:-bottom-0`}
                                 >
-                                    <div className="modal-content w-[200px] md:w-[250px] lg:w-[250px] h-48 md:h-53 lg:h-56 text-start rounded-2xl bg-neutral-500 shadow-[0px_4px_34px_10px_rgba(10,66,151,0.21)]">
+                                    <div className="modal-content w-[200px] md:w-[250px] lg:w-[250px] h-48 md:h-53 lg:h-56 text-start rounded-2xl bg-neutral-500 shadow-md"
+                                    style={{
+                                        boxShadow: "0px 0px 5px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1)"
+                                    }}>
                                         <div className="flex flex-col items-center gap-2 px-4 py-8">
                                             <div className="h-7 w-7 md:h-10 lg:w-14 lg:h-14">
                                                 <svg
@@ -156,6 +159,7 @@ const Form = () => {
                                         >
                                             <div className="w-10 h-10 md:h-10">
                                                 <svg
+                                                    onClick={handleShowInfo}
                                                     viewBox="0 0 50 50"
                                                     fill="none"
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -225,6 +229,9 @@ const Form = () => {
                                     id="custom-options"
                                     className={`${showCategory ? "" : "hidden"
                                         } absolute text-center w-64 top-7 rounded-2xl py-6 px-2 bg-neutral-500 mt-1 -right-5 xsm:right-0 shadow-md`}
+                                    style={{
+                                        boxShadow: "0px 0px 5px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(0, 0, 0, 0.1)"
+                                    }}
                                 >
                                     <div className="flex flex-col items-center justify-center gap-2">
                                         {categoryList.map((category) => (

@@ -20,6 +20,7 @@ import GaleriPenandatanganan from './components/galeri/GaleriPenandatanganan';
 import GaleriMerangkul from './components/galeri/GaleriMerangkul';
 import GaleriPeresmian from './components/galeri/GaleriPeresmian';
 import GaleriTampilBeda from './components/galeri/GaleriTampilBeda';
+import Produk from './pages/Produk';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/news" element={<News />} />
+          <Route path="/fitur" element={<Produk />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/galeri" element={<Galeri />} />

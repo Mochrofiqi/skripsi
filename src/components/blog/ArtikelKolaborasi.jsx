@@ -16,8 +16,8 @@ function ArtikelKolaborasi() {
                                     08 Oktober 2023
                                 </p>
                                 <div className="flex items-center justify-center h-24">
-                                    <h1 className="text-lg font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200">
-                                        Kolaborasi Seru FitAja! dan MCI di Mandiri Karnaval...
+                                    <h1 className="text-[17px] font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200">
+                                    Kolaborasi Seru FitAja! dan MCI di Mandiri Karnaval 2023
                                     </h1>
                                 </div>
                                 <div className="flex h-2/5">

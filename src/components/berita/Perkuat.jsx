@@ -3,6 +3,7 @@ import NavBar from '../NavBar';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 import ArtikelLainnya from '../blog/ArtikelLainnya';
+import Komentar from './Komentar';
 
 const Perkuat = () => {
     return (
@@ -57,6 +58,7 @@ const Perkuat = () => {
                 </section>
             </div>
 
+            <Komentar/>
             <ArtikelLainnya/>
             <Footer />
         </>

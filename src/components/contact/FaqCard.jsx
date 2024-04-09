@@ -9,7 +9,7 @@ const FaqCard = (props) => {
           />
           <div className="peer-checked:bg-primary-100 transition-all duration-500 self-stretch min-h-[4rem] px-5 py-4 bg-primary-300 rounded-tl-[32px] rounded-br-[32px] peer-checked:rounded-br-none rounded-tr-lg rounded-bl-lg peer-checked:rounded-bl-none flex-col justify-start items-start gap-2.5 flex">
             <div className="self-stretch justify-start items-start gap-2.5 inline-flex text-white">
-              <div className="grow shrink px-2 basis-0 text-base md:text-xl lg:text-xl font-semibold leading-[31.20px] mr-8">
+              <div className="grow shrink px-2 basis-0 text-lg font-semibold leading-[31.20px] mr-8">
                 {props.question}
               </div>
             </div>
@@ -39,7 +39,7 @@ const FaqCard = (props) => {
             </svg>
           </div>
           <div className="faq-container overflow-hidden transition-all duration-500 h-0 peer-checked:h-auto self-stretch bg-white rounded-bl-lg rounded-br-[32px] peer-checked:border peer-checked:border-primary-300 justify-start items-start gap-2.5 inline-flex">
-            <div className="grid faq-content self-stretch px-7 py-4 text-sm md:text-lg lg:text-lg font-normal leading-normal grow shrink basis-0 text-neutral-900 ql-editor">
+            <div className="grid faq-content self-stretch px-7 py-4 text-base font-normal leading-normal grow shrink basis-0 text-neutral-900 ql-editor">
               {props.answer}
             </div>
           </div>

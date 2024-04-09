@@ -1,22 +1,22 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
-import KumpulanCerita from '../components/news/KumpulanCerita'
-import KumpulanGaleri from '../components/news/KumpulanGaleri'
-import KumpulanVideo from '../components/news/KumpulanVideo'
-import Kategori from '../components/news/Kategori'
+import React from "react";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import Features from "../components/news/Features";
 
 const News = () => {
-    return (
-        <>
-        <NavBar />
-        <Kategori/>
-            <KumpulanCerita/>
-            {/* <KumpulanGaleri/> */}
-            {/* <KumpulanVideo/> */}
-            <Footer/>
-        </>
-    )
-}
+  return (
+    <>
+      <NavBar />
+      <div className="relative">
+        <img src="/public/page/frame.png" className="w-full pt-16 mt-2 shadow-lg" alt="Frame Image" />
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white font-semibold">
+          <h2 className="text-[48px] font-bold text-primary-200">Cerita FitAja!</h2>
+        </div>
+      </div>
+      <Features />
+      <Footer />
+    </>
+  );
+};
 
-export default News
+export default News;

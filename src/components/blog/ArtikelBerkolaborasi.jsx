@@ -16,8 +16,8 @@ function ArtikelBerkolaborasi() {
                                     08 Maret 2024
                                 </p>
                                 <div className="flex items-center justify-center h-24">
-                                    <h1 className="text-lg font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200">
-                                        Berkolaborasi Inovasi, FitAja! dan Good Doctor menandatangani MoU..
+                                    <h1 className="text-[17px] font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200">
+                                        Berkolaborasi dalam Inovasi, FitAja! dan Good Doctor MoU 
                                     </h1>
                                 </div>
                                 <div className="flex h-auto">

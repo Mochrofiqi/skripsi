@@ -4,7 +4,7 @@ const Maps = () => {
   return (
     <div>
       <section data-aos="fade-up" data-aos-delay="250" >
-        <div className='px-28 pt-8 pb-2'>
+        <div className='px-28 mt-6 pb-2'>
           <div
             data-aos="fade-up"
             data-aos-delay={250}

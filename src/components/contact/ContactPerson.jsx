@@ -3,7 +3,7 @@ import React from 'react'
 const ContactPerson = () => {
   return (
     <div>
-    <div className='px-28 pt-8'>
+    <div className='px-28 pt-10'>
           <div
             data-aos="fade-up"
             data-aos-delay={250}
@@ -17,7 +17,7 @@ const ContactPerson = () => {
             </div>
           </div>
         </div>
-        <section className="flex flex-col items-center justify-center gap-10 md:flex-row lg:flex-row md:gap-20 lg:gap-20 pt-6 pb-16">
+        <section className="flex flex-col items-center justify-center gap-10 md:flex-row lg:flex-row md:gap-20 lg:gap-20 pt-8 pb-20">
             <a href="mailto:cs@fitaja.id"
                 className="w-full md:w-[300px] lg:w-[300px] px-6 py-8 bg-neutral-500 rounded-2xl shadow-[0px_8px_24px_4px_rgba(10,66,151,0.24)] flex-col justify-center items-center gap-3 inline-flex hover:ring-2 hover:ring-primary-200 group"
                 data-aos="fade-right" data-aos-delay="250">

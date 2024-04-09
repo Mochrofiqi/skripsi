@@ -3,6 +3,7 @@ import NavBar from '../NavBar';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 import ArtikelLainnya from '../blog/ArtikelLainnya';
+import Komentar from './Komentar';
 
 const Peresmian = () => {
     return (
@@ -56,6 +57,7 @@ const Peresmian = () => {
             </section>
         </div>
 
+        <Komentar/>
         <ArtikelLainnya/>
         <Footer/>
         </>

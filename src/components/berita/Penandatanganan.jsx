@@ -3,6 +3,7 @@ import NavBar from '../NavBar';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 import ArtikelLainnya from '../blog/ArtikelLainnya';
+import Komentar from './Komentar';
 
 const Penandatanganan = () => {
     return (
@@ -55,6 +56,8 @@ const Penandatanganan = () => {
                 </div>
             </section>
         </div>
+
+        <Komentar/>
         <ArtikelLainnya/>
         <Footer/>
         </>

@@ -16,8 +16,8 @@ function ArtikelPenandatanganan() {
                                     13 Oktober 2023    
                                 </p>
                                 <div className="flex items-center justify-center h-24">
-                                    <h1 className="text-lg font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200">
-                                        Penandatangan MoU FitAja x IFG Life..
+                                    <h1 className="text-[17px] font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200">
+                                    Penandatangan MoU FitAja x IFG Life: Buka Akses Produk Asuransi IFG Life di FitAja!
                                     </h1>
                                 </div>
                                 <div className="flex h-2/5">
