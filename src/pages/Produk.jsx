@@ -1,10 +1,9 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
-import Layanan from '../components/product/Layanan'
-import Footer from '../components/Footer'
-import FiturAsuransi from '../components/product/FiturAsuransi'
-import FiturKesehatan from '../components/product/FiturKesehatan'
-import KontenFitur from '../components/product/KontenFitur'
+import React from 'react';
+import NavBar from '../components/NavBar';
+import Layanan from '../components/product/Layanan';
+import Footer from '../components/Footer';
+import FiturKesehatan from '../components/product/FiturKesehatan';
+import FiturAsuransi from '../components/product/FiturAsuransi';
 
 const Produk = () => {
   return (
@@ -18,7 +17,6 @@ const Produk = () => {
       </div>
       <Layanan/>
       <FiturAsuransi/>
-      <KontenFitur/>
       <FiturKesehatan/>
       <Footer/>
     </div>
