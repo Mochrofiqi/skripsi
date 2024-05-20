@@ -98,7 +98,7 @@ export const galleries = [
     id: 1,
     title: "Penandatangan FitAja! x IFG Life",
     image:
-      "/public/berita/penandatanganan.png",
+      "/berita/penandatanganan.png",
     slug: "galeri-penandatanganan",
     publish_date: "13 September 2023",
     viewCounts: 100,
@@ -108,7 +108,7 @@ export const galleries = [
     title:
     "Merangkul Klik Dokter FitAja!",
     image:
-    "/public/berita/merangkul.png",
+    "/berita/merangkul.png",
     slug: "galeri-merangkul",
     publish_date: "13 October 2023",
     viewCounts: 27,
@@ -117,7 +117,7 @@ export const galleries = [
     id: 3,
     title:"Tampil Beda Fitnity Tampil",
     image:
-    "/public/berita/tampil-beda.png",
+    "/berita/tampil-beda.png",
     slug: "galeri-tampil-beda",
     publish_date: "3 March 2024",
     viewCounts: 87,

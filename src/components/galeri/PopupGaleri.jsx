@@ -42,7 +42,7 @@ export default function PopupGaleri(props) {
             <div className="flex justify-center md:mx-16 lg:mx-16 md:h-3/4 lg:h-3/4">
               <img
                 className="object-contain w-full h-full aspect-video"
-                src="/public/berita/berkolaborasi.png"
+                src="/berita/berkolaborasi.png"
               />
             </div>
             <p className="mt-3 break-words overflow-hidden text-base text-center md:text-2xl lg:text-2xl md:mt-8 lg:mt-8 text-primary-100">
@@ -55,7 +55,7 @@ export default function PopupGaleri(props) {
             <div className="flex justify-center md:mx-16 lg:mx-16 md:h-3/4 lg:h-3/4">
               <img
                 className="object-contain w-full h-full aspect-video"
-                src="/public/berita/perkuat.png"
+                src="/berita/perkuat.png"
               />
             </div>
             <p className="mt-3 break-words overflow-hidden text-base text-center md:text-2xl lg:text-2xl md:mt-8 lg:mt-8 text-primary-100">
@@ -68,7 +68,7 @@ export default function PopupGaleri(props) {
             <div className="flex justify-center md:mx-16 lg:mx-16 md:h-3/4 lg:h-3/4">
               <img
                 className="object-contain w-full h-full aspect-video"
-                src="/public/berita/hadiri.png"
+                src="/berita/hadiri.png"
               />
             </div>
             <p className="mt-3 break-words overflow-hidden text-base text-center md:text-2xl lg:text-2xl md:mt-8 lg:mt-8 text-primary-100">

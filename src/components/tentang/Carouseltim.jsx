@@ -22,27 +22,27 @@ export default function Carouseltim() {
             >
                 <SwiperSlide>
                     <section className='h-full w-full'>
-                        <img className='rounded-3xl' src='/public/tim/3.png' alt="Carousel Image 1" />
+                        <img className='rounded-3xl' src='/tim/3.png' alt="Carousel Image 1" />
                     </section>
                 </SwiperSlide>
                 <SwiperSlide>
                     <section className='h-full w-full'>
-                        <img className='rounded-3xl' src='/public/tim/1.png' alt="Carousel Image 2" />
+                        <img className='rounded-3xl' src='/tim/1.png' alt="Carousel Image 2" />
                     </section>
                 </SwiperSlide>
                 <SwiperSlide>
                     <section className='h-full w-full'>
-                        <img className='rounded-3xl' src='/public/tim/2.png' alt="Carousel Image 3" />
+                        <img className='rounded-3xl' src='/tim/2.png' alt="Carousel Image 3" />
                     </section>
                 </SwiperSlide>
                 <SwiperSlide>
                     <section className='h-full w-full'>
-                        <img className='rounded-3xl' src='/public/tim/5.png' alt="Carousel Image 3" />
+                        <img className='rounded-3xl' src='/tim/5.png' alt="Carousel Image 3" />
                     </section>
                 </SwiperSlide>
                 <SwiperSlide>
                     <section className='h-full w-full'>
-                        <img className='rounded-3xl' src='/public/tim/4.png' alt="Carousel Image 4" />
+                        <img className='rounded-3xl' src='/tim/4.png' alt="Carousel Image 4" />
                     </section>
                 </SwiperSlide>
             </Swiper>

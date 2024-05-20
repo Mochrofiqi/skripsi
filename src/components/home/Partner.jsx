@@ -11,26 +11,26 @@ const Partner = () => {
             <div className="menu-list grid grid-cols-4 gap-4">
                 <div className="list-menu">
                     <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
-                        src="/public/partner/2-color.svg" alt="Partner Logo Grayscale"></img>
-                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/public/partner/2-black.svg"
+                        src="/partner/2-color.svg" alt="Partner Logo Grayscale"></img>
+                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/2-black.svg"
                         alt="Partner Logo Color"></img>
                 </div>
                 <div className="list-menu">
                     <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
-                        src="/public/partner/1-black.svg" alt="Partner Logo Grayscale"></img>
-                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/public/partner/1-color.svg"
+                        src="/partner/1-black.svg" alt="Partner Logo Grayscale"></img>
+                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/1-color.svg"
                         alt="Partner Logo Color"></img>
                 </div>
                 <div className="list-menu">
                     <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
-                        src="/public/partner/4-black.svg" alt="Partner Logo Grayscale"></img>
-                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/public/partner/4-color.svg"
+                        src="/partner/4-black.svg" alt="Partner Logo Grayscale"></img>
+                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/4-color.svg"
                         alt="Partner Logo Color"></img>
                 </div>
                 <div className="list-menu">
                     <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
-                        src="/public/partner/3-black.svg" alt="Partner Logo Grayscale"></img>
-                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/public/partner/3-color.svg"
+                        src="/partner/3-black.svg" alt="Partner Logo Grayscale"></img>
+                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/3-color.svg"
                         alt="Partner Logo Color"></img>
                 </div>
             </div>

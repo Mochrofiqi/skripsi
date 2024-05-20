@@ -36,7 +36,7 @@ export default function Milestone() {
                                     </h1>
                                     <div className="flex gap-8 mx-12">
                                         <div className='w-3/5'>
-                                            <img className="rounded-2xl" src="/public/tim/milestone.jpg" alt="Image Milestone Cover" />
+                                            <img className="rounded-2xl" src="/tim/milestone.jpg" alt="Image Milestone Cover" />
                                         </div>
                                         <div className="w-2/5 flex py-4 flex-col items-center justify-center justify-items-center my-auto mx-auto mt-5 place-items-center ql-editor">
                                             <p className="hidden mx-auto text-lg text-justify xl:block">
@@ -60,7 +60,7 @@ export default function Milestone() {
                                     </h1>
                                     <div className="flex gap-8 mx-12">
                                         <div className='w-3/5'>
-                                            <img className="rounded-2xl" src="/public/tim/milestone2.png" alt="Image Milestone Cover" />
+                                            <img className="rounded-2xl" src="/tim/milestone2.png" alt="Image Milestone Cover" />
                                         </div>
                                         <div className="w-2/5 flex py-4 flex-col items-center justify-center justify-items-center my-auto mx-auto mt-5 place-items-center ql-editor">
                                             <p className="hidden mx-auto text-lg text-justify xl:block">

@@ -8,9 +8,9 @@ export default function Fitur() {
         switch (feature) {
             case "fitur1":
                 return (
-                    <section className='mx-48 rounded-3xl bg-cover shadow-xl' style={{ backgroundImage: 'url(/public/bg.png)' }}>
+                    <section className='mx-48 rounded-3xl bg-cover shadow-xl' style={{ backgroundImage: 'url(/bg.png)' }}>
                         <div className='flex items-center justify-center mx-32 py-8 gap-12'>
-                            <img src='/public/fitur/hp.svg' className='w-60' />
+                            <img src='/fitur/hp.svg' className='w-60' />
                             <div className='text-center my-8'>
                                 <h2 className='text-4xl font-semibold text-primary-100'>Fitur Benefit</h2>
                                 <p className='text-xl font-semibold mt-4'>Informasi Benefit Kepesertaaan Asuransi Kamu</p>
@@ -21,9 +21,9 @@ export default function Fitur() {
                 );
             case "fitur2":
                 return (
-                    <section className='mx-48 rounded-3xl bg-cover shadow-xl' style={{ backgroundImage: 'url(/public/bg.png)' }}>
+                    <section className='mx-48 rounded-3xl bg-cover shadow-xl' style={{ backgroundImage: 'url(/bg.png)' }}>
                         <div className='flex items-center justify-center mx-32 py-8 gap-12'>
-                            <img src='/public/fitur/hp.svg' className='w-60' />
+                            <img src='/fitur/hp.svg' className='w-60' />
                             <div className='text-center my-8'>
                                 <h2 className='text-4xl font-semibold text-primary-100'>Fitur Guide</h2>
                                 <p className='text-xl font-semibold mt-4'>Informasi Benefit Kepesertaaan Asuransi Kamu</p>
@@ -34,9 +34,9 @@ export default function Fitur() {
                 );
             case "fitur3":
                 return (
-                    <section className='mx-48 rounded-3xl bg-cover shadow-xl' style={{ backgroundImage: 'url(/public/bg.png)' }}>
+                    <section className='mx-48 rounded-3xl bg-cover shadow-xl' style={{ backgroundImage: 'url(/bg.png)' }}>
                         <div className='flex items-center justify-center mx-32 py-8 gap-12'>
-                            <img src='/public/fitur/hp.svg' className='w-60' />
+                            <img src='/fitur/hp.svg' className='w-60' />
                             <div className='text-center my-8'>
                                 <h2 className='text-4xl font-semibold text-primary-100'>Fitur Claim</h2>
                                 <p className='text-xl font-semibold mt-4'>Informasi Benefit Kepesertaaan Asuransi Kamu</p>
@@ -63,21 +63,21 @@ export default function Fitur() {
                 <div className='flex py-6 justify-center'>
                     <div className={`bg-neutral-500 rounded-2xl py-3 w-40 mx-4 items-center justify-center text-primary-100 hover:bg-primary-200 hover:text-neutral-500 shadow-xl ${feature === 'fitur1' ? 'bg-primary-200 text-white' : ''}`}
                         onClick={() => setFeature("fitur1")}>
-                        <img src='/public/fitur/benefit.png' className='w-20 py-3 mx-auto' alt="FitBenefit" />
+                        <img src='/fitur/benefit.png' className='w-20 py-3 mx-auto' alt="FitBenefit" />
                         <h1 className="text-[22px] font-semibold text-center">
                             FitBenefit
                         </h1>
                     </div>
                     <div className={`bg-neutral-500 rounded-2xl py-3 w-40 mx-4 items-center justify-center text-primary-100 hover:bg-primary-200 hover:text-neutral-500 shadow-xl ${feature === 'fitur2' ? 'bg-primary-200 text-white' : ''}`}
                         onClick={() => setFeature("fitur2")}>
-                        <img src='/public/fitur/guide.png' className='w-20 py-3 mx-auto' alt="FitBenefit" />
+                        <img src='/fitur/guide.png' className='w-20 py-3 mx-auto' alt="FitBenefit" />
                         <h1 className="text-[22px] font-semibold text-center">
                             FitGuide
                         </h1>
                     </div>
                     <div className={`bg-neutral-500 rounded-2xl py-3 w-40 mx-4 items-center justify-center text-primary-100 hover:bg-primary-200 hover:text-neutral-500 shadow-xl ${feature === 'fitur3' ? 'bg-primary-200 text-white' : ''}`}
                         onClick={() => setFeature("fitur3")}>
-                        <img src='/public/fitur/claim.png' className='w-20 py-3 mx-auto' alt="FitBenefit" />
+                        <img src='/fitur/claim.png' className='w-20 py-3 mx-auto' alt="FitBenefit" />
                         <h1 className="text-[22px] font-semibold text-center">
                             FitClaim
                         </h1>

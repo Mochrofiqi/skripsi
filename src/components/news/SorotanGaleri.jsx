@@ -18,7 +18,7 @@ const SorotanGaleri = () => {
             <Link to={"/galeri-peresmian"}>
               <a className="items-center justify-center w-full py-2">
                 <img
-                  src="/public/berita/peresmian.png"
+                  src="/berita/peresmian.png"
                   alt="Banner Image"
                   className="w-full rounded-2xl group-hover:opacity-80"
                 ></img>

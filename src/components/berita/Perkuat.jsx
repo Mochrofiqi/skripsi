@@ -4,14 +4,15 @@ import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 import ArtikelLainnya from '../blog/ArtikelLainnya';
 import Komentar from './Komentar';
+import Bagikan from '../Bagikan';
 
 const Perkuat = () => {
     return (
         <>
             <NavBar />
-            <div className='mt-12 flex relative'>
+            <div className='flex relative'>
             <Link to={'/news'}>
-                    <img src='/public/arrow.png' className='w-16 absolute top-0 left-0 mt-24 ml-24 transition duration-300 filter hover:brightness-75 hover:tint-primary-100'></img>
+                    <img src='/arrow.png' className='w-16 absolute top-0 left-0 mt-24 ml-24 transition duration-300 filter hover:brightness-75 hover:tint-primary-100'></img>
                 </Link>
                 <section id="container" className="w-full lg:py-2.5 flex-col items-center gap-12 flex ">
                     <div className="w-full pt-8 sm:pt-10 lg:pt-8 flex-col justify-center items-center gap-2.5 flex">
@@ -33,13 +34,7 @@ const Perkuat = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div style={{ justifySelf: 'end' }}>
-                                    <a
-                                        className="px-8 py-2 my-5 text-base font-semibold transition-all duration-300 border rounded-full sm:px-10 show-modal text-primary-200 border-primary-200 hover:bg-primary-200 hover:text-white hover:cursor-pointer"
-                                    >
-                                        Lihat Lebih Banyak
-                                    </a>
-                                </div>
+                                <Bagikan/>
 
                                 <div className="lg:pt-[17px] justify-center items-center gap-2.5 flex w-full">
                                     <article className="text-xs font-normal leading-normal sm:text-sm lg:text-lg font-roboto ql-editor"

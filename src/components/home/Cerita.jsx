@@ -1,7 +1,7 @@
-import ArtikelBerkolaborasi from "../blog/ArtikelBerkolaborasi"
-import ArtikelKolaborasi from "../blog/ArtikelKolaborasi"
-import ArtikelPenandatanganan from "../blog/ArtikelPenandatangan"
-import { Link } from "react-router-dom"
+import ArtikelBerkolaborasi from "../blog/ArtikelBerkolaborasi";
+import ArtikelKolaborasi from "../blog/ArtikelKolaborasi";
+import ArtikelPenandatanganan from "../blog/ArtikelPenandatangan";
+import { Link } from "react-router-dom";
 
 const Cerita = () => {
     return (

@@ -19,7 +19,7 @@ export default function Visi() {
       <section className='h-50 m-5 mb-8'>
         <div className="rounded-3xl h-full p-6 mx-auto shadow-[rgba(17,_17,_26,_0.1)_0px_0px_20px] bg-primary-500 overflow-hidden">
           <div className="flex flex-col h-full items-center justify-center mx-auto lg:w-full lg:h-full">
-            <img src='/public/visi.png' className='w-14 py-3'></img>
+            <img src='/visi.png' className='w-14 py-3'></img>
             <h1 className="mb-1 text-2xl font-semibold text-primary-100 md:text-3xl xl:text-4xl 2xl:text-4xl">
               Visi
             </h1>
@@ -32,7 +32,7 @@ export default function Visi() {
       <section className='h-50 m-5 mb-8'>
         <div className="rounded-3xl h-full p-6 mx-auto shadow-[rgba(17,_17,_26,_0.1)_0px_0px_20px] bg-primary-500 overflow-hidden">
           <div className="flex flex-col items-center justify-center mx-auto lg:w-full lg:h-full">
-          <img src='/public/misi.png' className='w-14 py-2'></img>
+          <img src='/misi.png' className='w-14 py-2'></img>
             <h1 className="mb-2 mt-1 text-2xl font-semibold text-primary-100 md:text-3xl xl:text-4xl 2xl:text-4xl">
               Misi
             </h1>

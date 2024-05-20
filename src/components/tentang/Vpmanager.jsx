@@ -6,7 +6,7 @@ const Vpmanager = () => {
             <section className='mt-12'>
                 <div className="menu-list grid grid-cols-4 gap-14 m-auto">
                     <div className="relative w-1/5">
-                        <img className="max-w-full h-auto rounded-3xl" src="/public/tim/dyta.jpg" ></img>
+                        <img className="max-w-full h-auto rounded-3xl" src="/tim/dyta.jpg" ></img>
                         <div className="absolute bottom-0 left-0 right-0 rounded-tl-lg rounded-tr-lg rounded-bl-[24px] h-30 rounded-br-[24px] backdrop-blur-sm bg-white bg-opacity-80 p-4 text-center hover:bg-primary-100 hover:text-white hover:bg-opacity-70">
                             <div className='text-primary-100 hover:text-white'>
                                 <h5 className="text-xl font-semibold ">
@@ -19,7 +19,7 @@ const Vpmanager = () => {
                         </div>
                     </div>
                     <div className="relative w-1/5">
-                        <img className="max-w-full h-auto rounded-3xl" src="/public/tim/marsudi.jpg" ></img>
+                        <img className="max-w-full h-auto rounded-3xl" src="/tim/marsudi.jpg" ></img>
                         <div className="absolute bottom-0 left-0 right-0 rounded-tl-lg rounded-tr-lg rounded-bl-[24px] h-30 rounded-br-[24px] backdrop-blur-sm bg-white bg-opacity-80 p-4 text-center hover:bg-primary-100 hover:text-white hover:bg-opacity-70">
                             <div className='text-primary-100 hover:text-white'>
                                 <h5 className="text-xl font-semibold ">
@@ -32,7 +32,7 @@ const Vpmanager = () => {
                         </div>
                     </div>
                     <div className="relative w-1/5">
-                        <img className="max-w-full h-auto rounded-3xl" src="/public/tim/ari.jpg" ></img>
+                        <img className="max-w-full h-auto rounded-3xl" src="/tim/ari.jpg" ></img>
                         <div className="absolute bottom-0 left-0 right-0 rounded-tl-lg rounded-tr-lg rounded-bl-[24px] h-30 rounded-br-[24px] backdrop-blur-sm bg-white bg-opacity-80 p-4 text-center hover:bg-primary-100 hover:text-white hover:bg-opacity-70">
                             <div className='text-primary-100 hover:text-white'>
                                 <h5 className="text-xl font-semibold ">
@@ -45,7 +45,7 @@ const Vpmanager = () => {
                         </div>
                     </div>
                     <div className="relative w-1/5">
-                        <img className="max-w-full h-auto rounded-3xl" src="/public/tim/andi.jpg" ></img>
+                        <img className="max-w-full h-auto rounded-3xl" src="/tim/andi.jpg" ></img>
                         <div className="absolute bottom-0 left-0 right-0 rounded-tl-lg rounded-tr-lg rounded-bl-[24px] h-30 rounded-br-[24px] backdrop-blur-sm bg-white bg-opacity-80 p-4 text-center hover:bg-primary-100 hover:text-white hover:bg-opacity-70">
                             <div className='text-primary-100 hover:text-white'>
                                 <h5 className="text-xl font-semibold ">
@@ -63,7 +63,7 @@ const Vpmanager = () => {
             <section className='mt-12'>
                 <div className="menu-list grid grid-cols-4 gap-14 justify-center pr-10">
                     <div className="relative w-1/5">
-                        <img className="max-w-full rounded-3xl" src="/public/tim/rizky.jpg"  />
+                        <img className="max-w-full rounded-3xl" src="/tim/rizky.jpg"  />
                         <div className="absolute bottom-0 left-0 right-0 rounded-tl-lg rounded-tr-lg rounded-bl-[24px] h-30 rounded-br-[24px] backdrop-blur-sm bg-white bg-opacity-80 p-4 text-center hover:bg-primary-100 hover:text-white hover:bg-opacity-70">
                             <div className='text-primary-100 hover:text-white'>
                                 <h5 className="text-xl font-semibold ">

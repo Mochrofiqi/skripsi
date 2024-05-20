@@ -33,7 +33,7 @@ const Sorotan = () => {
                 <div className="w-3/5 pb-8">
                   <img
                     className="rounded-2xl"
-                    src="/public/berita/berkolaborasi.png"
+                    src="/berita/berkolaborasi.png"
                   />
                 </div>
                 <div className="w-2/5 flex flex-col justify-center my-auto ql-editor">
@@ -67,7 +67,7 @@ const Sorotan = () => {
                 <div className="w-3/5">
                   <img
                     className="rounded-2xl"
-                    src="/public/berita/penandatanganan.png"
+                    src="/berita/penandatanganan.png"
                     alt="Image Milestone Cover"
                   />
                 </div>
@@ -102,7 +102,7 @@ const Sorotan = () => {
                 <div className="w-3/5 pb-8">
                   <img
                     className="rounded-2xl"
-                    src="/public/berita/kolaborasi.png"
+                    src="/berita/kolaborasi.png"
                     alt="Image Milestone Cover"
                   />
                 </div>

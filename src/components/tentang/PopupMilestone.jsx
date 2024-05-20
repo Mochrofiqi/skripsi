@@ -30,7 +30,7 @@ export default function PopupMilestone(props) {
           <div className="flex justify-center mx-16 h-4/6">
             <img
               className="object-contain w- aspect-video rounded-3xl"
-              src="/public/tim/milestone.jpg"
+              src="/tim/milestone.jpg"
             />
           </div>
           <h3 className="mt-4 text-2xl font-medium break-words overflow-hidden text-center text-primary-100">

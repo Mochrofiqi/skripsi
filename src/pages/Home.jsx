@@ -26,13 +26,13 @@ function Home() {
             <img
               className=" aspect-video w-full rounded-2xl"
               onClick={openModal}
-              src="/public/ytb.png"
+              src="/ytb.png"
               alt="Youtube Thumbnail"
             />
             <img
               onClick={openModal}
               className="absolute inset-0 flex items-center justify-center m-auto w-16 border-white"
-              src="/public/play.png"
+              src="/play.png"
               alt="Play Button"
             />
           </div>

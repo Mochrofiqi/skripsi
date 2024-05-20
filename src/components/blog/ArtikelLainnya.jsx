@@ -10,8 +10,8 @@ import { Link } from 'react-router-dom';
 
 const ArtikelLainnya = () => {
     return (
-        <div className=''>
-            <h1 data-aos="fade-up" data-aos-delay="250" className="text-3xl font-semibold px-20">
+        <div className='mb-8'>
+            <h1 data-aos="fade-up" data-aos-delay="250" className="text-3xl font-semibold px-20 pt-4">
                 Berita Lainnya
             </h1>
             <Swiper slidesPerView={4} spaceBetween={20} className="mySwiperSlide px-24 py-8">
@@ -19,7 +19,7 @@ const ArtikelLainnya = () => {
                     <Link to={'/merangkul'} className="relative flex items-center justify-center swiper-slide px-4">
                         <a className="flex items-center justify-center w-full py-2">
                             <article className="w-10/12 max-w-xs md:w-[240px] lg:w-[240px] xl:w-80 flex flex-col group items-center justify-between py-6 px-8 gap-2 rounded-2xl hover:ring-2 hover:ring-primary-200 bg-white shadow-[rgba(17,_17,_26,_0.2)_0px_0px_16px]">
-                                <img className="w-full aspect-video object-cover rounded-tl-[52px] h-2/5 rounded-br-[52px] rounded-bl-xl rounded-tr-xl" src="/public/berita/merangkul.png" alt="Thumbnail"></img>
+                                <img className="w-full aspect-video object-cover rounded-tl-[52px] h-2/5 rounded-br-[52px] rounded-bl-xl rounded-tr-xl" src="/berita/merangkul.png" alt="Thumbnail"></img>
                                 <p className="self-start text-sm font-semibold text-left text-neutral-200 font-roboto group-hover:underline group-hover:text-primary-200">29 Agustus 2023</p>
                                 <div className="flex items-center justify-center h-auto">
                                     <h1 className="text-base font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200">Merangkul KlikDokter, FitAja! Kini Melayani Live Chat..</h1>
@@ -37,7 +37,7 @@ const ArtikelLainnya = () => {
                     <Link to={'/perkuat'} className="relative flex items-center justify-center swiper-slide px-4">
                         <a className="flex items-center justify-center w-full py-2">
                             <article className="w-10/12 max-w-xs md:w-[240px] lg:w-[240px] xl:w-80 flex flex-col group items-center justify-between py-6 px-8 gap-2 rounded-2xl hover:ring-2 hover:ring-primary-200 bg-white shadow-[rgba(17,_17,_26,_0.2)_0px_0px_16px]">
-                                <img className="w-full aspect-video object-cover rounded-tl-[52px] h-2/5 rounded-br-[52px] rounded-bl-xl rounded-tr-xl" src="/public/berita/perkuat.png" alt="Thumbnail"></img>
+                                <img className="w-full aspect-video object-cover rounded-tl-[52px] h-2/5 rounded-br-[52px] rounded-bl-xl rounded-tr-xl" src="/berita/perkuat.png" alt="Thumbnail"></img>
                                 <p className="self-start text-sm font-semibold text-left text-neutral-200 font-roboto group-hover:underline group-hover:text-primary-200">
                                     30 Agustus 2023</p>
                                 <div className="flex items-center justify-center h-auto">
@@ -58,7 +58,7 @@ const ArtikelLainnya = () => {
                     <Link to={'/tampil-beda'} className="relative flex items-center justify-center swiper-slide px-4">
                         <a className="flex items-center justify-center w-full py-2">
                             <article className="w-10/12 max-w-xs md:w-[240px] lg:w-[240px] xl:w-80 flex flex-col group items-center justify-between py-6 px-8 gap-2 rounded-2xl hover:ring-2 hover:ring-primary-200 bg-white shadow-[rgba(17,_17,_26,_0.2)_0px_0px_16px]">
-                                <img className="w-full aspect-video object-cover rounded-tl-[52px] h-2/5 rounded-br-[52px] rounded-bl-xl rounded-tr-xl" src="/public/berita/tampil-beda.png" alt="Thumbnail"></img>
+                                <img className="w-full aspect-video object-cover rounded-tl-[52px] h-2/5 rounded-br-[52px] rounded-bl-xl rounded-tr-xl" src="/berita/tampil-beda.png" alt="Thumbnail"></img>
                                 <p className="self-start text-sm font-semibold text-left text-neutral-200 font-roboto group-hover:underline group-hover:text-primary-200">02 September 2023</p>
                                 <div className="flex items-center justify-center h-auto">
                                     <h1 className="text-base font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200">Tampil Beda, Fitnity Tampil Lebih Ciamik Pakai Batik..</h1>
@@ -76,7 +76,7 @@ const ArtikelLainnya = () => {
                     <Link to={'/hadiri'} className='relative flex items-center justify-center swiper-slide px-4'>
                         <a className="flex items-center justify-center w-full py-2">
                             <article className="w-10/12 max-w-xs md:w-[240px] lg:w-[240px] xl:w-80 flex flex-col group items-center justify-between py-6 px-8 gap-2 rounded-2xl hover:ring-2 hover:ring-primary-200 bg-white shadow-[rgba(17,_17,_26,_0.2)_0px_0px_16px]">
-                                <img className="w-full aspect-video object-cover rounded-tl-[52px] h-2/5 rounded-br-[52px] rounded-bl-xl rounded-tr-xl" src="/public/berita/hadiri.png" alt="Thumbnail"></img>
+                                <img className="w-full aspect-video object-cover rounded-tl-[52px] h-2/5 rounded-br-[52px] rounded-bl-xl rounded-tr-xl" src="/berita/hadiri.png" alt="Thumbnail"></img>
                                 <p className="self-start text-sm font-semibold text-left text-neutral-200 font-roboto group-hover:underline group-hover:text-primary-200">13 September 2023</p>
                                 <div className="flex items-center justify-center h-auto">
                                     <h1 className="text-base font-bold text-center break-words text-neutral-200 group-hover:underline group-hover:text-primary-200"> Hadiri HUB.ID Partner Day x Nex-BE Fest 2023, FitAja! Siap Berkolaborasi...</h1>

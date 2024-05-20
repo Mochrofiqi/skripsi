@@ -7,14 +7,14 @@ function Komisaris() {
   const data = [
       {
           id: 1,
-          url: "/public/tim/komisaris-utama.jpg",
+          url: "/tim/komisaris-utama.jpg",
           name: "Bugi Riagandhy",
           topicList: 'Komisaris Utama',
           shortName: "Komisaris Utama",
       },
       {
           id: 2,
-          url: "/public/tim/komisaris.jpg",
+          url: "/tim/komisaris.jpg",
           name: "Dinoor Susatijo",
           topicList: 'Komisaris',
           shortName: "Komisaris",

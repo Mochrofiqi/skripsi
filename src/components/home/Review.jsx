@@ -22,7 +22,7 @@ const Review = () => {
                                         <div className="w-32 h-32 mt-2">
                                             <img
                                                 className="object-cover w-full h-full md:h-64 lg:h-72 xl:h-80 rounded-full"
-                                                src="/public/review3.jpg"
+                                                src="/review3.jpg"
                                                 alt="Review Image"
                                             />
                                         </div>
@@ -33,7 +33,7 @@ const Review = () => {
                                     <p className="text-base text-bold flex justify-end items-center">
                                         4.8
                                         <div className="w-7 ml-1">
-                                            <img src="/public/star.png" alt="Star" />
+                                            <img src="/star.png" alt="Star" />
                                         </div>
                                     </p>
 
@@ -57,7 +57,7 @@ const Review = () => {
                                         <div className="w-32 h-32 mt-2">
                                             <img
                                                 className="object-cover w-full h-full md:h-64 lg:h-72 xl:h-80 rounded-full"
-                                                src="/public/review.jpg"
+                                                src="/review.jpg"
                                                 alt="Review Image"
                                             />
                                         </div>
@@ -69,7 +69,7 @@ const Review = () => {
                                     <p className="text-base text-bold flex justify-end items-center">
                                         4.7
                                         <div className="w-7 ml-1">
-                                            <img src="/public/star.png" alt="Star" />
+                                            <img src="/star.png" alt="Star" />
                                         </div>
                                     </p>
 
@@ -94,7 +94,7 @@ const Review = () => {
                                         <div className="w-32 h-32 mt-2">
                                             <img
                                                 className="object-cover w-full h-full md:h-64 lg:h-72 xl:h-80 rounded-full"
-                                                src="/public/review2.jpg"
+                                                src="/review2.jpg"
                                                 alt="Review Image"
                                             />
                                         </div>
@@ -108,7 +108,7 @@ const Review = () => {
                                     <p className="text-base text-bold flex justify-end items-center">
                                         4.9
                                         <div className="w-7 ml-1">
-                                            <img src="/public/star.png" alt="Star" />
+                                            <img src="/star.png" alt="Star" />
                                         </div>
                                     </p>
 

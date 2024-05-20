@@ -31,13 +31,13 @@ export default function Banner() {
             className="mySwiper"
         >
           <SwiperSlide className='bg-transparent swiper-wrapper'>
-                <img src="/public/banner.jpg" alt="Banner 3" />
+                <img src="/banner.jpg" alt="Banner 3" />
             </SwiperSlide>
             <SwiperSlide className='bg-transparent swiper-wrapper'>
-                <img src="/public/banner4.png" alt="Banner 1" />
+                <img src="/banner4.png" alt="Banner 1" />
             </SwiperSlide>
             <SwiperSlide className='bg-transparent swiper-wrapper'>
-                <img src="/public/banner3.png" alt="Banner 2" />
+                <img src="/banner3.png" alt="Banner 2" />
             </SwiperSlide>
         </Swiper>
     </div>

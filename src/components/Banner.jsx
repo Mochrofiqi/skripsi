@@ -25,7 +25,7 @@ const Banner = () => {
   return (
     <Container>
       <Wrapper>
-      <Image src="/public/banner.jpg" />
+      <Image src="/banner.jpg" />
       </Wrapper>
     </Container>
   );

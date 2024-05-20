@@ -7,14 +7,14 @@ function Direksi() {
     const data = [
         {
             id: 1,
-            url: "/public/tim/managing-director.jpg",
+            url: "/tim/managing-director.jpg",
             name: "Danang Rizki Ginanjar",
             topicList: 'Managing Director',
             shortName: "Managing Director",
         },
         {
             id: 2,
-            url: "/public/tim/director.jpg",
+            url: "/tim/director.jpg",
             name: "Aris Bachtiar",
             topicList: 'Director',
             shortName: "Director",

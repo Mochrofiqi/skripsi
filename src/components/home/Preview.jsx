@@ -69,7 +69,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/Home_Preview.svg"
+                    src="https://fitaja.id/assets/icons/Home_Preview.svg"
                     alt="Home Preview"
                   ></img>
                 </div>
@@ -78,7 +78,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/FitMedicine_Feature.svg"
+                    src="https://fitaja.id/assets/icons/FitMedicine_Feature.svg"
                     alt="FitMedicine Feature Preview"
                   ></img>
                 </div>
@@ -87,7 +87,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/FitCode_Feature.svg"
+                    src="https://fitaja.id/assets/icons/FitCode_Feature.svg"
                     alt="FitCode Feature Preview"
                   ></img>
                 </div>
@@ -96,7 +96,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/FitMe_Feature.svg"
+                    src="https://fitaja.id/assets/icons/FitMe_Feature.svg"
                     alt="FitMe Feature Preview"
                   ></img>
                 </div>
@@ -104,8 +104,8 @@ export default function Preview() {
               <SwiperSlide className="bg-transparent">
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
-                    className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/FitInsurance_Feature.svg"
+                    className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[600px]"
+                    src="/preview.png"
                     alt="FitInsurance Feature Preview"
                   ></img>
                 </div>
@@ -114,7 +114,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/Home_Preview.svg"
+                    src="https://fitaja.id/assets/icons/Home_Preview.svg"
                     alt="Home Preview"
                   ></img>
                 </div>
@@ -123,7 +123,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/FitMedicine_Feature.svg"
+                    src="https://fitaja.id/assets/icons/FitMedicine_Feature.svg"
                     alt="FitMedicine Feature Preview"
                   ></img>
                 </div>
@@ -132,7 +132,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/FitCode_Feature.svg"
+                    src="https://fitaja.id/assets/icons/FitCode_Feature.svg"
                     alt="FitCode Feature Preview"
                   ></img>
                 </div>
@@ -141,7 +141,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/FitMe_Feature.svg"
+                    src="https://fitaja.id/assets/icons/FitMe_Feature.svg"
                     alt="FitMe Feature Preview"
                   ></img>
                 </div>
@@ -150,7 +150,7 @@ export default function Preview() {
                 <div className="bg-transparent flex justify-center mt-2 overflow-hidden duration-1000 swiper-slide">
                   <img
                     className="max-w-[245px] h-[400px] mb-2 md:mb-1 md:w-[245px] md:h-[500px]"
-                    src="https://demo.fitaja.id/assets/icons/FitInsurance_Feature.svg"
+                    src="/preview.png"
                     alt="FitInsurance Feature Preview"
                   ></img>
                 </div>
@@ -164,7 +164,7 @@ export default function Preview() {
           className="flex pt-6 pb-8 items-center justify-center w-full"
         >
           <a
-            href="/myqrcode.mobi/2fe2e6f0"
+            href="https://myqrcode.mobi/2fe2e6f0"
             target="_blank"
             className="px-10 py-2 text-base mx-auto font-semibold text-center transition-all duration-300 bg-white border text-primary-200 rounded-3xl border-primary-200 hover:bg-primary-200 hover:text-white"
           >
