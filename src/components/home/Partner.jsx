@@ -10,28 +10,36 @@ const Partner = () => {
             </div>
             <div className="menu-list grid grid-cols-4 gap-4">
                 <div className="list-menu">
-                    <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
-                        src="/partner/2-color.svg" alt="Partner Logo Grayscale"></img>
-                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/2-black.svg"
-                        alt="Partner Logo Color"></img>
+                    <a href="https://www.admedika.co.id/" target="_blank">
+                        <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
+                            src="/partner/2-color.svg" alt="Partner Logo Grayscale"></img>
+                        <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/2-black.svg"
+                            alt="Partner Logo Color"></img>
+                    </a>
                 </div>
                 <div className="list-menu">
-                    <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
-                        src="/partner/1-black.svg" alt="Partner Logo Grayscale"></img>
-                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/1-color.svg"
-                        alt="Partner Logo Color"></img>
+                    <a href="https://www.telkom.co.id/sites" target="_blank">
+                        <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
+                            src="/partner/1-black.svg" alt="Partner Logo Grayscale"></img>
+                        <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/1-color.svg"
+                            alt="Partner Logo Color"></img>
+                    </a>
                 </div>
                 <div className="list-menu">
-                    <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
-                        src="/partner/4-black.svg" alt="Partner Logo Grayscale"></img>
-                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/4-color.svg"
-                        alt="Partner Logo Color"></img>
+                    <a href="https://www.mandiriinhealth.co.id/" target="_blank">
+                        <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
+                            src="/partner/4-black.svg" alt="Partner Logo Grayscale"></img>
+                        <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/4-color.svg"
+                            alt="Partner Logo Color"></img>
+                    </a>
                 </div>
                 <div className="list-menu">
-                    <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
-                        src="/partner/3-black.svg" alt="Partner Logo Grayscale"></img>
-                    <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/3-color.svg"
-                        alt="Partner Logo Color"></img>
+                    <a href="https://www.linkedin.com/company/prixaai/?originalSubdomain=id" target="_blank">
+                        <img className="absolute hidden lg:block lg:hover:hidden lg:hover:opacity-0"
+                            src="/partner/3-black.svg" alt="Partner Logo Grayscale"></img>
+                        <img className="absolute lg:opacity-0 lg:hover:opacity-100" src="/partner/3-color.svg"
+                            alt="Partner Logo Color"></img>
+                    </a>
                 </div>
             </div>
         </section>
