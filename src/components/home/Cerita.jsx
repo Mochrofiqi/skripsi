@@ -11,7 +11,7 @@ const Cerita = () => {
                 <section
                     className="testimonySwipper w-full md:w-11/12 min-[840px]:w-10/12 lg:w-full overflow-hidden lg:px-5 py-6 box-content">
                     <h1 data-aos="fade-up" data-aos-delay="250"
-                        className="mt-8 mb-8 text-2xl font-semibold text-center md:text-3xl lg:text-4xl">Kumpulan Cerita</h1>
+                        className="mt-8 mb-8 text-2xl font-semibold text-center md:text-3xl lg:text-4xl">Kumpulan Berita</h1>
                     <div data-aos="fade-up" data-aos-delay="500"
                         className="flex lg:gap-16 lg:justify-center lg:items-center swiper-wrapper">
                         <ArtikelBerkolaborasi />
